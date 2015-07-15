@@ -31,6 +31,7 @@ class KataController < ApplicationController
 
     respond_to do |format|
       format.js { render layout: false }
+	  format.json { render :json }
     end
   end
 
