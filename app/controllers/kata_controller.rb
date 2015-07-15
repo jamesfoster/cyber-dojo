@@ -29,7 +29,7 @@ class KataController < ApplicationController
 
     @output = visible_files['output']
 
-	render :json
+	render json: @output
   end
 
 private
