@@ -29,7 +29,10 @@ class KataController < ApplicationController
 
     @output = visible_files['output']
 
-	render json: @output
+	render json: {
+		output: visible_files['output'],
+		traffic_lights: @traffic_lights
+	}
   end
 
 private
