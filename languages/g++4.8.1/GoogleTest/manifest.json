@@ -1,9 +1,6 @@
 
 {
   "visible_filenames": [
-    "hiker.tests.cpp",
-    "hiker.cpp",
-    "hiker.hpp",
     "makefile",
     "cyber-dojo.sh"
   ],
