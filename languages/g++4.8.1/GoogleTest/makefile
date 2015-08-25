@@ -1,4 +1,4 @@
-CXXFLAGS += -I. -std=c++11 -Wall -Wextra -Werror
+CXXFLAGS += -I. -std=c++11 -Wall -Wextra
 GTEST_LIBS = -lgtest -lgtest_main -pthread
 
 HPP_FILES = $(wildcard *.hpp)
